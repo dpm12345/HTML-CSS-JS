@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+body {
+    background-color: rgb(235, 232, 232);
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* IE6、7 专有 */
+    *zoom: 1;
+}
+
+/* 头部块 */
+.head {
+    height: 42px;
+    margin: 20px auto;
+
+}
+/* logo图片 */
+.head img {
+    float: left;
+}
+
+/* head下的ul */
+.head ul {
+    float: left;
+    list-style: none;
+}
+/* head下的ul中li的排放方式 */
+.head ul li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+}
+/* head内的链接 */
+.head ul li a {
+    display: block;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+/* 经过链接时 */
+.head ul li a:hover {
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
+
+.head input {
+    float: left;
+    height: 40px;
+    width: 400px;
+    margin-left: 70px;
+    border: 1px solid skyblue;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.head button {
+    float: left;
+    height: 42px;
+    width: 50px;
+    line-height: 42px;
+    background-image: url(images/btn.png);
+    border: 1px solid skyblue;
+}
+
+/* 导航 */
+.nav {
+    height: 420px;
+    background-color: rgb(50, 31, 136);
+    background-repeat: no-repeat;
+}
+.nav_ {
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+    background-image: url(images/banner2_20190819_210028.png);
+    background-repeat: no-repeat;
+}
+.nav .nav_ ul {
+    list-style: none;
+    width: 300px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 7.5px 0;
+}
+.nav .nav_ ul li {
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.nav .nav_ ul li a span {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav .nav_ ul li a {
+    text-decoration: none;
+    color:white
+}
+.nav .nav_ ul li a:hover {
+    color: orange;
+}
+
+
+/* 目录 */
+.log {
+    height: 41px;
+    margin-top: 10px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.3);
+    background-color: white;
+}
+
+.log ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+.log ul li a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    margin: 0 50px;
+}
+.log ul li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.log ul li span {
+    float: left;
+    margin: 0 10px
+}
+.log ul .sp {
+    float: right;
+    font-size: 15px;
+}
+
+.content {
+    margin-top: 20px;
+}
+.content a {
+    text-decoration: none;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+.img_margin {
+    margin-bottom: 30px;
+}
+
+.content .c {
+    float: left;
+    width: 232px;
+    height: 274px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.content h4 {
+    margin: 15px 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content .tip {
+    margin: 0 25px;
+    color: grey;
+    
+}
+.content .tip span {
+    color: rgb(248, 186, 14);
+}
+.footer {
+    margin-top: 20px auto;
+    background-color: white;
+}
+.footer .w {
+    padding-bottom: 400px;
+}
+
+.footer .w img {
+    margin: 50px 0 40px 0;
+}
+
+.box1 {
+    float: left;
+    color: grey;
+    background-color: white;
+}
+
+.box1 p {
+    height: 25px;
+    line-height: 25px;
+}
+
+.box1 .copyright {
+    font-size: 15px;
+}
+
+
+
+.box1 a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    color: skyblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: 1px solid skyblue;
+    margin-top: 20px;
+
+}
+.box2 {
+    float: right;
+}
+.link {
+    float: right;
+    margin: 50px 50px;
+}
+
+.link dt {
+    font-size: 18px;
+}
+.link dd a {
+    font-size: 15px;
+    color: black;
+    height: 20px;
+    text-decoration: none;
+    line-height: 20px;
+}
+.link dd a:hover {
+    text-decoration: underline solid skyblue 2px;
+
+}
